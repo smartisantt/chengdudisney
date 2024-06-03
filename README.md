@@ -1,8 +1,8 @@
 # chengdudisney
 
-That'a funny project.
+This is a fun project.
 
-You can console log message with background.
+You can print out the message with background.
 
 ```
 consoleBg.hearts('Hello, world!');

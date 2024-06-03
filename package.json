@@ -1,7 +1,7 @@
 {
   "name": "chengdudisney",
-  "version": "1.0.5",
-  "description": "this is a test package, just for fun.",
+  "version": "1.0.6",
+  "description": "You can console log info with background in your browser.",
   "main": "index.js",
   "type": "module",
   "scripts": {
