@@ -1,24 +1,31 @@
 {
   "name": "chengdudisney",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "You can console log info with background in your browser.",
   "main": "index.js",
   "type": "module",
+  "types": "index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartisantt/chengdudisney"
+  },
   "exports":{
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "default": {
+        "require": "./dist/index.cjs",
+        "default": "./index.js"
+      },
+      "types": {
+        "default": "./index.d.ts"
+      }
     }
   },
   "keywords": [
     "chengdu",
     "disney"
-  ],
-  "files": [
-    "/dist"
   ],
   "author": "Ashley",
   "license": "ISC",

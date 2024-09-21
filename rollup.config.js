@@ -9,7 +9,7 @@ const output = (file, format, name) => ({
 
 export default [
   {
-    input: "src/index.js",
+    input: "index.js",
     output: [
       output("dist/index.cjs", "cjs"),
       output("dist/index.js", "es"),
